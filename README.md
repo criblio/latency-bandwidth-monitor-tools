@@ -1,0 +1,3 @@
+# Tools for Latency and Bandwidth Monitoring Pack
+
+This repo contains statically linked `mtr` and `speedtest` binaries for use with the Latency and Bandwidth Monitoring Pack for Cribl LogStream. This pack out of the box will provide a dashboard served by a prometheus compatible Grafana backend with widgets showing latency and bandwith conditions where the script is run. This pack uses [AppScope](https://appscope.dev) to send the data to [Cribl Cloud](https://cribl.cloud) which reshapes the data as metrics and sends to [Grafana Cloud](https://grafana.com/). This repo contains the two static binaries ran by AppScope to collect the data, `mtr` and `speedtest`.
