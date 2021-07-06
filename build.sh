@@ -14,7 +14,7 @@ cd ..
 rm -rf mtr*
 cd $ORIG_DIR
 
-go get github.com/showwin/speedtest-go
-cd ~/go/src/github.com/showwin/speedtest-go
+go get github.com/criblio/speedtest-go
+cd ~/go/src/github.com/criblio/speedtest-go
 CGO_ENABLED=0 go build -tags netgo -o $ORIG_DIR/speedtest
 cd $ORIG_DIR
